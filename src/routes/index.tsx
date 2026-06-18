@@ -29,13 +29,13 @@ import articleCare from "@/assets/article-care.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "The PTM — Spesialis Tenis Meja Indonesia" },
+      { title: "The PTM BB (Bangkit Bersama) — Spesialis Tenis Meja Indonesia" },
       {
         name: "description",
         content:
           "Peralatan tenis meja premium dari merek kelas dunia. Baru, second-hand tersertifikasi, dan rakitan bat kustom untuk semua tingkat pemain.",
       },
-      { property: "og:title", content: "The PTM — Spesialis Tenis Meja Indonesia" },
+      { property: "og:title", content: "The PTM BB (Bangkit Bersama) — Spesialis Tenis Meja Indonesia" },
       {
         property: "og:description",
         content:
@@ -85,7 +85,7 @@ function Logo({ className = "" }: { className?: string }) {
   return (
     <a href="#" className={`flex items-baseline gap-1 font-display font-black tracking-tight ${className}`}>
       <span className="text-[22px] leading-none">The</span>
-      <span className="text-[22px] leading-none text-brand">PTM</span>
+      <span className="text-[22px] leading-none text-brand">PTM BB</span>
       <span className="ml-1 mt-0.5 hidden h-1.5 w-1.5 rounded-full bg-brand md:block" />
     </a>
   );
@@ -117,7 +117,7 @@ function Nav() {
             <span className="absolute -right-0.5 -top-0.5 grid h-4 w-4 place-items-center rounded-full bg-brand text-[10px] font-bold text-white">3</span>
           </button>
           <a
-            href="https://wa.me/6281234567890?text=Halo%20The%20PTM,%20saya%20tertarik%20dengan%20peralatan%20tenis%20meja!"
+            href="https://wa.me/6281234567890?text=Halo%20The%20PTM%20BB%20%28Bangkit%20Bersama%29,%20saya%20tertarik%20dengan%20peralatan%20tenis%20meja!"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-2 inline-flex h-9 items-center gap-2 rounded-full bg-ink px-4 text-[13px] font-semibold text-paper transition hover:bg-brand"
@@ -202,7 +202,7 @@ function Hero() {
             <div className="absolute right-6 top-0 h-20 w-20 bg-brand" />
             <div className="absolute -bottom-4 left-10 h-3 w-40 bg-ink" />
             <div className="absolute right-0 bottom-16 text-[11px] font-mono uppercase tracking-[0.2em] text-ink/40 [writing-mode:vertical-rl]">
-              EST. PTM / TT-2024
+              EST. PTM BB / TT-2024
             </div>
 
             <div className="relative h-full w-full overflow-hidden rounded-[24px] border border-rule bg-mist">
@@ -429,7 +429,7 @@ function BuildBat() {
             Ahli kami akan merakitnya untuk Anda dalam 48 jam.
           </p>
           <a
-            href="https://wa.me/6281234567890?text=Halo%20The%20PTM,%20saya%20tertarik%20untuk%20merakit%20kombinasi%20racket%20tenis%20meja%20kustom!"
+            href="https://wa.me/6281234567890?text=Halo%20The%20PTM%20BB%20%28Bangkit%20Bersama%29,%20saya%20tertarik%20untuk%20merakit%20kombinasi%20racket%20tenis%20meja%20kustom!"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-10 inline-flex items-center gap-2 rounded-full bg-ink px-7 py-4 text-[15px] font-semibold text-paper transition hover:bg-brand"
@@ -758,7 +758,7 @@ function FinalCTA() {
             <ArrowUpRight className="h-4 w-4 transition group-hover:rotate-45" />
           </a>
           <a
-            href="https://wa.me/6281234567890?text=Halo%20The%20PTM,%20saya%20tertarik%20dengan%20peralatan%20tenis%20meja!"
+            href="https://wa.me/6281234567890?text=Halo%20The%20PTM%20BB%20%28Bangkit%20Bersama%29,%20saya%20tertarik%20dengan%20peralatan%20tenis%20meja!"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-ink/15 bg-paper px-8 py-4 text-[15px] font-semibold text-ink transition hover:border-ink"
@@ -795,7 +795,7 @@ function Footer() {
               Spesialis tenis meja Indonesia. Peralatan baru, second-hand tersertifikasi, dan rakitan bat kustom dari merek kelas dunia.
             </p>
             <a
-              href="https://wa.me/6281234567890?text=Halo%20The%20PTM,%20saya%20tertarik%20dengan%20peralatan%20tenis%20meja!"
+              href="https://wa.me/6281234567890?text=Halo%20The%20PTM%20BB%20%28Bangkit%20Bersama%29,%20saya%20tertarik%20dengan%20peralatan%20tenis%20meja!"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-flex items-center gap-2 rounded-full bg-ink px-5 py-3 text-[13px] font-semibold text-paper transition hover:bg-brand"
@@ -835,7 +835,7 @@ function Footer() {
         </div>
 
         <div className="flex flex-wrap items-center justify-between gap-4 pt-8 text-[12px] text-ink/55">
-          <div className="font-mono uppercase tracking-[0.15em]">© {new Date().getFullYear()} The PTM</div>
+          <div className="font-mono uppercase tracking-[0.15em]">© {new Date().getFullYear()} The PTM BB (Bangkit Bersama)</div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-ink">Privasi</a>
             <a href="#" className="hover:text-ink">Ketentuan</a>
