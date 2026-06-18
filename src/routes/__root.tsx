@@ -77,33 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-<<<<<<< HEAD
       { title: "The PTM BB (Bangkit Bersama) — Spesialis Tenis Meja Indonesia" },
-      { name: "description", content: "The PTM BB (Bangkit Bersama) menciptakan toko online peralatan tenis meja dengan desain gaya Swiss modern yang premium." },
+      { name: "description", content: "The PTM BB (Bangkit Bersama) memberikan solusi untuk pecinta tenis meja" },
       { name: "author", content: "The PTM BB (Bangkit Bersama)" },
       { property: "og:title", content: "The PTM BB (Bangkit Bersama) — Spesialis Tenis Meja Indonesia" },
-      { property: "og:description", content: "The PTM BB (Bangkit Bersama) menciptakan toko online peralatan tenis meja dengan desain gaya Swiss modern yang premium." },
+      { property: "og:description", content: "The PTM BB (Bangkit Bersama) memberikan solusi untuk pecinta tenis meja" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@ThePTMBB" },
       { name: "twitter:title", content: "The PTM BB (Bangkit Bersama) — Spesialis Tenis Meja Indonesia" },
-      { name: "twitter:description", content: "The PTM BB (Bangkit Bersama) menciptakan toko online peralatan tenis meja dengan desain gaya Swiss modern yang premium." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7e76f4e1-341f-40da-8975-ae52b149505a/id-preview-f3888ec0--6ae53fe4-b37f-4c03-902c-eddcde02d434.lovable.app-1781537551884.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7e76f4e1-341f-40da-8975-ae52b149505a/id-preview-f3888ec0--6ae53fe4-b37f-4c03-902c-eddcde02d434.lovable.app-1781537551884.png" },
-=======
-      { title: "The PTM — Spesialis Tenis Meja Indonesia" },
-      { name: "description", content: "The PTM Memberikan solusi untuk pecinta tenis meja" },
-      { name: "author", content: "The PTM" },
-      { property: "og:title", content: "The PTM — Spesialis Tenis Meja Indonesia" },
-      { property: "og:description", content: "The PTM Memberikan solusi untuk pecinta tenis meja" },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@ThePTM" },
-      { name: "twitter:title", content: "The PTM — Spesialis Tenis Meja Indonesia" },
-      { name: "twitter:description", content: "The PTM Memberikan solusi untuk pecinta tenis meja" },
+      { name: "twitter:description", content: "The PTM BB (Bangkit Bersama) memberikan solusi untuk pecinta tenis meja" },
       { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/e53f2072-18d5-47a0-abe3-125b4d243e1a" },
       { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/e53f2072-18d5-47a0-abe3-125b4d243e1a" },
->>>>>>> 4613d24bb42d35b7ab3b877ca739dc9237efea5b
     ],
     links: [
       {
